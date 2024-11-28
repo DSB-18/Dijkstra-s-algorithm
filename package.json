@@ -17,15 +17,11 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
-    "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "typescript": "^4.9.5"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "homepage": "https://dsb-18.github.io/Dijkstra-s-algorithm/",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
@@ -46,7 +42,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.2.0",
-    "@babel/plugin-proposal-private-property-in-object": "~7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
